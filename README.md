@@ -113,6 +113,24 @@ O código foi estruturado em funções modulares com tratamento de valores nulos
 
 ---
 
+## Visualizações 📊
+
+Abaixo estão algumas imagens geradas durante a análise:
+
+### Gráfico de Dispersão
+
+![Dispersão das Vendas](graficos/dispersao_vendas.png)
+
+### Faturamento por Loja
+
+![Faturamento das Lojas](graficos/faturamento_lojas.png)
+
+### Mapa de Calor
+
+![Mapa de Calor das Vendas](graficos/mapa_calor_vendas.png)
+
+---
+
 ## Recomendação ✅
 
 Recomenda-se vender a **Loja 4**, pois:
@@ -160,8 +178,9 @@ Execute as células para:
 
 ### Arquivos Gerados
 
-* 🖼️ `dispersao_vendas.png`: Gráfico com a distribuição geográfica das vendas
-* 🌍 `mapa_calor_vendas.html`: Mapa interativo com a densidade das vendas
+* 🖼️ `graficos/dispersao_vendas.png`: Gráfico com a distribuição geográfica das vendas
+* 💰 `graficos/faturamento_lojas.png`: Gráfico de faturamento das lojas
+* 🌍 `graficos/mapa_calor_vendas.png`: Mapa de calor da densidade das vendas
 
 ---
 
