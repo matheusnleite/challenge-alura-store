@@ -148,7 +148,7 @@ A **Loja 1**, apesar da menor avaliação, tem o maior faturamento e potencial d
 ### Pré-requisitos
 
 - 🐍 Python 3.8+
-- 📚 Bibliotecas: `pandas`, `matplotlib`, `seaborn`, `folium`
+- 📚 Bibliotecas: `pandas`, `matplotlib`
 
 ### Instale as dependências:
 
@@ -172,25 +172,18 @@ jupyter notebook AluraStoreBr.ipynb
 Execute as células para:
 
 - Carregar e consolidar os dados
-- Gerar o gráfico de dispersão (`dispersao_vendas.png`)
-- Criar o mapa de calor (`mapa_calor_vendas.html`)
-- Visualizar a análise de desempenho por região
+- Gerar o gráfico de faturamento (`faturamento_lojas.png`)
+- Gerar o gráfico de avaliações (`avaliacoes_lojas_barh.png`)
+- Gerar o gráfico de produtos mais vendidos (`produtos_mais_vendidos.png`)
+- Visualizar o relatório feito com base na análise dos dados
 
 ### Arquivos Gerados
 
-- 🖼️ `graficos/dispersao_vendas.png`: Gráfico com a distribuição geográfica das vendas
+- 🖼️ `graficos/avaliacoes_lojas_barh.png`: Gráfico com a avaliação das lojas
 - 💰 `graficos/faturamento_lojas.png`: Gráfico de faturamento das lojas
-- 🌍 `graficos/mapa_calor_vendas.png`: Mapa de calor da densidade das vendas
+- 🌍 `graficos/produtos_mais_vendidos.png`: Gráfico com os produtos mais vendidos
 
----
 
-## Limitações e Observações ⚠️
-
-- **Loja 1**: Ausência de pontos no mapa indica valores nulos em `lat`/`lon`
-- **Escopo Geográfico**: Faltam dados de cidades; detalhamento poderia enriquecer a análise
-- **Frete Médio**: Coluna inferida, não estava explicitamente nos dados
-
----
 
 ## Autor ✍️
 
